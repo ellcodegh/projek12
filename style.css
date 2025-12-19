@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+.container {
+    max-width: 480px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input, select, textarea {
+    width: 98%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-right: 0px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group,
+.checkbox-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+    display: block;
+}
+
+/* Jika input error beri border merah */
+.input-error {
+    border-color: red !important;
+}
+
+
+button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 18px;
+    }
+}
+
+.profil {
+    max-width: 480px;
+    margin: auto;
+    margin-bottom: 30px;
+    background: white;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
